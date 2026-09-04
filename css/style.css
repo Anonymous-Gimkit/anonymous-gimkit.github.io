@@ -31,8 +31,12 @@
 > dark-mode
 --------------------------------------------- */
 
-/* ------------------------------------------ Import ------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+/* ------------------------------------------ Import and font ------------------------------------------*/
+@font-face {
+  font-family: 'IdentityFont';
+  src:  url('LTAIdentity-Medium.woff2') format('woff2'),
+        url('LTAIdentity-Medium.woff') format('woff');
+}
 @import url(bootstrap.min.css);
 @import url(animate.css);
 @import url(owl.carousel.min.css);
