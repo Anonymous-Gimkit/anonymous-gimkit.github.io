@@ -34,7 +34,7 @@
 /* ------------------------------------------ Import and font ------------------------------------------*/
 @font-face {
   font-family: "IdentityFont";
-  src: url("0.ttf") format("truetype");
+  src: url("LTAId.ttf") format("truetype");
   font-weight: 400;
 }
 
