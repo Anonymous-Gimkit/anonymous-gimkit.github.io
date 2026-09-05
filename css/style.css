@@ -33,10 +33,11 @@
 
 /* ------------------------------------------ Import and font ------------------------------------------*/
 @font-face {
-  font-family: 'IdentityFont';
-  src:  url('LTAIdentity-Medium.woff2') format('woff2'),
-        url('LTAIdentity-Medium.woff') format('woff');
+  font-family: "IdentityFont";
+  src: url("0.ttf") format("truetype");
+  font-weight: 400;
 }
+
 @import url(bootstrap.min.css);
 @import url(animate.css);
 @import url(owl.carousel.min.css);
