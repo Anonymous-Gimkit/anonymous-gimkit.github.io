@@ -58,6 +58,9 @@ body {
     width: 100%;
 }
 
+body {
+  font-family: 'IdentityFont', sans-serif;
+}
 
 body {
     font-family: "Onest", sans-serif;
