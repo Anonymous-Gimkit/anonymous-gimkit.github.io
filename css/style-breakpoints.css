@@ -1,43 +1,9 @@
-/* ------------------------------------------
-[Tables of Content]
-
-> style
-> style-breakpoints (this)
-    - 1.0 Specific Breakpoints
-        - 1.0.1 Max Width: 992px
-        - 1.0.2 Max Width: 768px
-        - 1.0.3 Max Width: 767px
-        - 1.0.4 Max Width: 450px
-        - 1.0.4a Min Width: 992px
-        - 1.0.5 Max Width: 576px
-
-    - 2.0 Width Breakpoints
-        - 2.0.1 Min Width: 992px Max Width: 1199px
-        - 2.0.2 Min Width: 768px Max Width: 991px
-        - 2.0.3 Min Width: 576px Max Width: 767px
-        - 2.0.4 Min Width: 320px Max Width: 575px
-        - 2.0.5 Max Width: 576px
-        - 2.0.6 Max Width: 319px
-
-    - 3.0 Height Breakpoints
-        - 3.0.1 Min Height: 531px Max Height: 620px
-        - 3.0.2 Min Height: 510px Max Height: 530px
-        - 3.0.3 Min Height: 400px Max Height: 529px
-        - 3.0.4 Min Height: 320px Max Height: 399px
-        - 3.0.5 Min Height: 319px
-                
-> dark theme
---------------------------------------------- */
-
-/* ------------------------------------------ 1.0 Specific Breakpoints ------------------------------------------ */
-/* ---- 1.0.0 Max Width: 1450px */
 @media (max-width: 1450px) {
     .nav-item {
         margin-left: 1.2rem;
     }
 }
 
-/* ---- 1.0.1 Max Width: 1200px */
 @media (max-width: 1399px) {
     h1.brc {
         overflow: hidden;
@@ -52,9 +18,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.2 Max Width: 1201px */
 @media (min-width: 1201px) {
     .navbar-nav {
         display: flex !important;
@@ -70,9 +33,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.3 Max Width: 1200px */
 @media (max-width: 1200px) {
     .timeline-horizontal {
         grid-template-columns: repeat(3, 1fr);
@@ -115,7 +75,6 @@
         justify-content: center;
     }
 
-    /* Hide desktop navigation on mobile */
     .navbar-nav {
         display: none;
     }
@@ -125,18 +84,12 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.4a Min Width: 992px */
 @media (min-width: 995px) {
     #hero {
         height: 90vh;
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.4 Max Width: 992px */
 @media (max-width: 992px) {
     #hero {
         text-align: center;
@@ -167,15 +120,12 @@
 
 }
 
-/* ---- */
-
 @media (max-width: 994px) {
     #hero {
         height: 70vh;
     }
 }
 
-/* ---- 1.0.4a Min Width: 992px */
 @media (min-width: 992px) {
     .video-row {
         display: flex;
@@ -190,9 +140,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.4b Max Width: 991.98px */
 @media (max-width: 991.98px) {
     .video-row video {
         width: 100%;
@@ -200,9 +147,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.5 Max Width: 768px */
 @media (max-width: 768px) {
     #centered-container {
         top: 55%;
@@ -389,9 +333,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.6 Max Width: 767px */
 @media (max-width: 767px) {
     .container {
         max-width: 720px;
@@ -604,9 +545,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.8 Max Width: 576px */
 @media (max-width: 576px) {
     .timeline-horizontal {
         grid-template-columns: 1fr;
@@ -644,9 +582,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.9 Max Width: 480px */
 @media (max-width: 480px) {
     .footer {
         width: calc(100% - 20px);
@@ -680,9 +615,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 1.0.10 Max Width: 450px */
 @media (max-width: 450px) {
     .btn {
         width: 70px;
@@ -736,18 +668,12 @@
     }
 }
 
-/* ---- */
-
-/* ------------------------------------------ 2.0 Width Breakpoints ------------------------------------------ */
-
-/* ---- 2.0.1 Min Width: 1200px */
 @media (min-width: 1200px) {
     h1 {
         font-size: 2.2rem;
     }
 }
 
-/* ---- 2.0.1 Min Width: 992px Max Width: 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     img.profile-pic {
         width: 220px;
@@ -822,9 +748,6 @@
     }
 }
 
-/* ---- */
-
-/* 2.0.2 Min Width: 768px Max Width: 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     img.profile-pic {
         width: 200px;
@@ -947,9 +870,6 @@
     }
 }
 
-/* ---- */
-
-/* 2.0.3 Min Width: 576px Max Width: 767px */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .classy-nav-container .classy-navbar .nav-brand {
         max-width: 174px;
@@ -1015,10 +935,6 @@
         margin-bottom: 50px;
     }
 
-    .wbnrfz_btn {
-        min-width: 100%;
-    }
-
     .container-blogList {
         padding: 0px;
     }
@@ -1066,10 +982,6 @@
         font-size: 12px;
     }
 
-    .about-us-content h3 {
-        font-size: 24px;
-    }
-
     .breadcrumb-area {
         height: 240px;
     }
@@ -1112,24 +1024,6 @@
         border-radius: 10px;
     }
 
-    .portfolio-controls {
-        display: flex;
-        flex-direction: column-reverse;
-        /* Stack children vertically */
-        gap: 20px;
-        /* Add spacing between elements */
-    }
-
-    .portfolio-filter {
-        order: 2;
-        /* Ensure it appears first */
-    }
-
-    .portfolio-sort {
-        order: 1;
-        margin-bottom: 30px;
-        /* Ensure it appears below */
-    }
 
     .carousel {
         margin-left: 5vw;
@@ -1151,9 +1045,6 @@
 
 }
 
-/* ---- */
-
-/* 2.0.4 Min Width: 320px Max Width: 575px */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     img.profile-pic {
         width: 200px;
@@ -1225,26 +1116,6 @@
         padding: 0px;
     }
 
-    .blog-entry a {
-        font-size: 18px;
-    }
-
-    .blog-entry a.blog-date {
-        font-size: 14px;
-    }
-
-    .blog-entry .category {
-        font-size: 11px;
-    }
-
-    .img-blog-profile {
-        width: 100%;
-        height: auto;
-    }
-
-    .wbnrfz_details .banner img {
-        width: 100%;
-    }
 
     body.dark-mode .classy-nav-container .classy-navbar .classynav ul li a {
         background-color: transparent;
@@ -1384,9 +1255,6 @@
 
 }
 
-/* ---- */
-
-/* 2.0.5 Max Width: 319px */
 @media only screen and (max-width: 319px) {
     body.dark-mode .classy-nav-container .classy-navbar .classynav ul li a {
         background-color: #1f2022;
@@ -1416,9 +1284,6 @@
     }
 }
 
-
-/* ------------------------------------------ 3.0 Height Breakpoints ------------------------------------------ */
-/* ---- 3.0.1 Min Height: 531px Max Height: 620px */
 @media (min-height: 531px) and (max-height: 620px) {
     .breadcrumb-content {
         scale: 0.8;
@@ -1431,9 +1296,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 3.0.2 Min Height: 510px Max Height: 530px */
 @media (min-height: 510px) and (max-height: 530px) {
     img.profile-pic {
         width: 250px;
@@ -1451,9 +1313,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 3.0.3 Min Height: 400px Max Height: 529px */
 @media (min-height: 400px) and (max-height: 529px) {
     img.profile-pic {
         width: 200px;
@@ -1472,9 +1331,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 3.0.4 Min Height: 320px Max Height: 399px */
 @media (min-height: 320px) and (max-height: 399px) {
     img.profile-pic {
         width: 190px;
@@ -1501,9 +1357,6 @@
     }
 }
 
-/* ---- */
-
-/* ---- 3.0.5 Min Height: 319px */
 @media (max-height: 319px) {
     img.profile-pic {
         display: none;
@@ -1526,9 +1379,6 @@
     }
 }
 
-/* ------------------------------------------ 4.0 Responsive Columns ------------------------------------------ */
-
-/* Breakpoints for Responsive Columns */
 @media (max-width: 992px) {
     .wbnrfz-grid {
         grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
@@ -1554,20 +1404,6 @@
     .wbnrfz-grid {
         grid-template-columns: repeat(1, 1fr);
 
-    }
-}
-
-/* ------------------------------------------ 5.0 Floating Cards Responsive ------------------------------------------ */
-
-@media (max-width: 1200px) {
-    .wbnrfz-works.floating-cards {
-        margin-top: -300px;
-    }
-}
-
-@media (max-width: 992px) {
-    .wbnrfz-works.floating-cards {
-        margin-top: -250px;
     }
 }
 
